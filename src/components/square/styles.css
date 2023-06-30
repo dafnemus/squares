@@ -1,0 +1,43 @@
+div {
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.pink {
+  background-color: pink;
+  color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+.gray {
+  background-color: gray;
+}

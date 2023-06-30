@@ -1,0 +1,9 @@
+main {
+  background-color: antiquewhite;
+  display: flex;
+  gap: 50px;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
