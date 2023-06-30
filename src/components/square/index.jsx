@@ -1,21 +1,21 @@
 import PropTypes from "prop-types";
 import "./styles.css";
 
-const Square = ({ className, onClick }) => {
+const Square = ({ color, onClick }) => {
   return (
-    <div className={className} onClick={onClick}>
-      <p>{className}</p>
+    <div className={color} onClick={onClick}>
+      <p>{color}</p>
     </div>
   );
 };
 
 Square.propTypes = {
-  className: PropTypes.string,
+  color: PropTypes.string,
   onClick: PropTypes.func,
 };
 
 Square.defaultProps = {
-  className: "",
+  color: "",
   onClick: () => {},
 };
 export default Square;

@@ -24,7 +24,7 @@ function App() {
       {colors.map((color, index) => (
         <Square
           key={color}
-          className={color}
+          color={color}
           onClick={() => changeColor(index)}
         />
       ))}

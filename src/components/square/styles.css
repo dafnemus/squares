@@ -12,9 +12,13 @@ div {
   background-color: red;
 }
 
+.pink,
+.yellow {
+  color: black;
+}
+
 .pink {
   background-color: pink;
-  color: black;
 }
 
 .blue {
@@ -27,7 +31,6 @@ div {
 
 .yellow {
   background-color: yellow;
-  color: black;
 }
 
 .purple {
